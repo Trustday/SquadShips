@@ -16,7 +16,7 @@ ACPP_Turrent::ACPP_Turrent(const FObjectInitializer& oi)
 	PrimaryActorTick.bCanEverTick = true;
 	radio_vision = oi.CreateDefaultSubobject<USphereComponent>(this, TEXT("sight"));
 	radio_vision->SetupAttachment(RootComponent);
-	radio_vision->SetSphereRadius(2500);
+	radio_vision->SetSphereRadius(15000);
 }
 
 // Called when the game starts or when spawned
@@ -38,9 +38,9 @@ void ACPP_Turrent::Tick(float delta)
 	if (distancia <= radio_vision->GetScaledSphereRadius())
 	{
 		vplayer.Normalize();
-		AddMovementInput(vplayer, 20 * delta);
+		//AddMovementInput(vplayer, 20 * delta);
 		FRotator heading = vplayer.Rotation();
-		//heading.Pitch = 0;
+		heading.Pitch = 0;
 		RootComponent->SetWorldRotation(heading);
 		OnDeath();
 		//UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
