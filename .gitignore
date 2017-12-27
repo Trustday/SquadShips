@@ -113,5 +113,5 @@ $RECYCLE.BIN/
 *.lnk
 
 #TestMap
-Content/FlyingCPP/Maps/TestMap.umap
-Content/FlyingCPP/Maps/TestMap.uasset
+.Content/FlyingCPP/Maps/TestMap.umap
+.Content/FlyingCPP/Maps/TestMap.uasset
