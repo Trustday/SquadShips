@@ -28,10 +28,11 @@ void ANew_Protagonista::BeginPlay()
 // Called every frame
 void ANew_Protagonista::Tick(float DeltaTime)
 {
+	/*
 	if (health <= 0.f) 
 	{
 		UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
-	}
+	}*/
 	Super::Tick(DeltaTime);
 }
 
