@@ -113,4 +113,8 @@ $RECYCLE.BIN/
 *.lnk
 
 #TestMap
-Content/TestMap/*
+Content/Meshes/Materials/*
+
+Content/Blueprint/TestNoUsados/*
+
+Content/FlyingCPP/*
