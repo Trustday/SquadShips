@@ -113,4 +113,5 @@ $RECYCLE.BIN/
 *.lnk
 
 #TestMap
-Content/FlyingCPP/*
+
+Content/FlyingCPP/Nivel_0_BuiltData.uasset
