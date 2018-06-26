@@ -1,0 +1,8 @@
+arreglar vidrios para que esquina sea más puntuda
+
+probar colisión noGravityObj
+
+cambiar colisión de esfera de trigger
+
+crear UI de otros ítems del main menú
+
