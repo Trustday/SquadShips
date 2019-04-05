@@ -1,0 +1,5 @@
+﻿newmtl /Game/Meshes/Materials/GridGreyDark_GridGreyDark
+	map_Kd GridGreyDark_GridGreyDark_D.bmp
+	map_Ks GridGreyDark_GridGreyDark_S.bmp
+	bump GridGreyDark_GridGreyDark_N.bmp
+
